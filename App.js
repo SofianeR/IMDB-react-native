@@ -78,12 +78,7 @@ export default function App() {
               <Text style={styles.subTitleRate}>1,1M</Text>
             </View>
             <View style={styles.containerRate}>
-              <FontAwesome
-                name="star-o"
-                size={24}
-                color="white"
-                style={{ marginBottom: 10 }}
-              />
+              <FontAwesome name="star-o" size={24} color="white" />
               <Text style={styles.titleRate}>RATE THIS</Text>
             </View>
             <View style={styles.containerRate}>
@@ -234,7 +229,6 @@ const styles = StyleSheet.create({
   rate: {
     flexDirection: "row",
     justifyContent: "space-around",
-    alignItems: "center",
     paddingBottom: 30,
   },
   titleRate: {
@@ -251,7 +245,7 @@ const styles = StyleSheet.create({
   },
   containerRate: {
     marginTop: 20,
-    justifyContent: "flex-start",
+    justifyContent: "space-between",
     alignItems: "center",
   },
   score: {
